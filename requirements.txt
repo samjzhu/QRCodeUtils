@@ -1,9 +1,4 @@
-matplotlib~=3.5.0
-numpy~=1.21.4
-qrcode==7.3.1
 pyqrcode~=1.2.1
-pypng
-PyQRCode~=1.2.1
 pyclip~=0.5.4
 opencv-python~=4.5.5.62
-PySimpleGUI~=4.56.0
+PySimpleGUI==4.57.0

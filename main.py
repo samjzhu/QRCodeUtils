@@ -67,9 +67,9 @@ def utility_simpleGUI():
         [sg.Text('Authentication Type'),
          sg.Combo(['WPA2', 'WEP', 'WPA'], key='T', default_value='WPA2')],
         [sg.Text('SSID'),
-         sg.InputText('TP-Link_DC79_5G', key='ssid')],
+         sg.InputText('YourSSID', key='ssid')],
         [sg.Text('Passcode'),
-         sg.InputText('57519425', key='P')],
+         sg.InputText('YourPassCode', key='P')],
         [sg.Button('Generate WIFI QRCode')]]
 
     tab_layout_input = [[sg.T('Generate QR code for given input')],
